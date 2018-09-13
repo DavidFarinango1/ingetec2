@@ -9,16 +9,26 @@ font-family: 'Roboto Condensed', sans-serif;
     azul casi oscuro: #0279B0
     celeste claro: #D5EDF8
 */
-header{
-    background-color: #0279B0;
-    font-family: 'Open Sans', sans-serif;
-    height: 105px;
-}
 header a{
     background-color: #F2F0F0;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    background-color: #0279B0;
+    font-family: 'Open Sans', sans-serif;
+    height: 105px;
+    border: 2px solid black;
+}
 body{
     background-color: #D5EDF8;
     font-family: 'Oswald', sans-serif;
+} 
+.menu{
+    border: 1px solid black;
+}
+.products{
+    border: 1px solid red;
+}
+.image_border{
+    border: 1px solid black;
 }
