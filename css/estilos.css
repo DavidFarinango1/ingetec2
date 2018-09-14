@@ -9,6 +9,9 @@ font-family: 'Roboto Condensed', sans-serif;
     azul casi oscuro: #0279B0
     celeste claro: #D5EDF8
 */
+.contact{
+    display: block;
+}
 header a{
     background-color: #F2F0F0;
     font-family: 'Roboto', sans-serif;
