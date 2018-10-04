@@ -9,22 +9,34 @@ font-family: 'Roboto Condensed', sans-serif;
     azul casi oscuro: #0279B0
     celeste claro: #D5EDF8
 */
-.contact{
-    display: block;
-}
 header a{
     background-color: #F2F0F0;
     font-family: 'Roboto', sans-serif;
 }
+a.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    align-items: center;
+}
+
 header{
     background-color: #0279B0;
     font-family: 'Open Sans', sans-serif;
-    height: 105px;
     border: 2px solid black;
+
+}
+a.logo{
+    display: flex;
+    justify-content: center;
+    background-color: #0279B0;
 }
 body{
-    background-color: #D5EDF8;
+    background-color: rgb(184, 225, 245);
     font-family: 'Oswald', sans-serif;
+    margin: 0px;
 } 
 .menu{
     border: 1px solid black;
@@ -40,4 +52,15 @@ body{
     border: 1px solid black;
     border-radius: 10px;
     margin: 10px;
+}
+.products h3{
+    display: flex;
+    justify-content: center;
+}
+.products ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #F2F0F0;
 }
