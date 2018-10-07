@@ -26,12 +26,65 @@ header{
     background-color: #0279B0;
     font-family: 'Open Sans', sans-serif;
     border: 2px solid black;
-
 }
-a.logo{
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+.search h5{
+    margin: 0;
+}
+.search{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+form.boxt{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0279B0;
+    height: 50px;
+    align-items: center;
+}
+.logIn{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+}
+.CATEGORIAS{
     display: flex;
     justify-content: center;
-    background-color: #0279B0;
+    align-content: center;
+}
+.slides{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.slidesimg{
+    border: 1px solid black;
+}
+.catalog{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.catalogimg{
+    border: 1px solid black;
+    width: 50%;
+    height: 800px;
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
 }
 body{
     background-color: rgb(184, 225, 245);
