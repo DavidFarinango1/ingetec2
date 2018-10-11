@@ -9,6 +9,7 @@ font-family: 'Roboto Condensed', sans-serif;
     azul casi oscuro: #0279B0
     celeste claro: #D5EDF8
 */
+
 header a{
     background-color: #F2F0F0;
     font-family: 'Roboto', sans-serif;
@@ -20,18 +21,78 @@ a.contact{
     padding: 0;
     height: 20px;
     align-items: center;
+    background-color: #F2F0F0;
 }
 
 header{
     background-color: #0279B0;
     font-family: 'Open Sans', sans-serif;
     border: 2px solid black;
-
 }
-a.logo{
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+}
+.search h5{
+    margin: 0;
+}
+.search{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+form.boxt{
+    display: flex;
+}
+.boxt h5{
+    padding-right: 8px;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #0279B0;
+    height: 50px;
+    align-items: center;
+}
+.logIn{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    align-items: center;
+}
+.title-principal-box{
     display: flex;
     justify-content: center;
-    background-color: #0279B0;
+    align-content: center;
+}
+.slides{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.slidesimg{
+    border: 1px solid black;
+}
+.catalog{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+.catalogimg{
+    border: 1px solid black;
+    width: 50%;
+    max-height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    border: 1px solid black;
+    margin: 8px;
+    justify-content: space-around;
+    align-items: center;
+    height: max-content;
 }
 body{
     background-color: rgb(184, 225, 245);
@@ -63,4 +124,61 @@ body{
     justify-content: space-between;
     padding: 0;
     background-color: #F2F0F0;
+}
+.p-box-common-products{
+    border: 1px solid red;
+    display: flex;
+}
+.box-common-products{
+    border: 1px solid red;
+}
+.contact{
+    display: flex;
+    background-color: #0279B0;
+}
+.contact-box1{
+    width: 50%;
+    border: 1px solid red;
+    text-align: center;
+}
+/* .footer-box-client{
+    justify-content: center;
+}
+.client{
+    justify-content: center;
+} */
+.client-info h5{
+    margin: 0;
+}
+.footer{
+    background-color:#1b2127;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.contact-box2{
+    width: 50%;
+    text-align: center;
+    border: 1px solid red;
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 10px;
+    background-size: 50px 50px;
+}
+.social-link.facebook{
+    background-image: url('../imagenes/facebook.svg');
+}
+.social-link.twitter{
+    background-image: url('../imagenes/twitter.svg');
+}
+.social-link.instagram{
+    background-image: url('../imagenes/instagram.svg');
+}
+.social-link.github{
+    background-image: url('../imagenes/github.svg');
 }
