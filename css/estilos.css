@@ -44,9 +44,12 @@ header{
 form.boxt{
     display: flex;
 }
+<<<<<<< HEAD
 .boxt h5{
     padding-right: 8px;
 }
+=======
+>>>>>>> 6a5890bbae88111c80c13ed3d9a93ec396c1e3a5
 .logo{
     display: flex;
     justify-content: flex-start;
@@ -60,7 +63,11 @@ form.boxt{
     height: 50px;
     align-items: center;
 }
+<<<<<<< HEAD
 .title-principal-box{
+=======
+.CATEGORIAS{
+>>>>>>> 6a5890bbae88111c80c13ed3d9a93ec396c1e3a5
     display: flex;
     justify-content: center;
     align-content: center;
@@ -81,6 +88,7 @@ form.boxt{
 .catalogimg{
     border: 1px solid black;
     width: 50%;
+<<<<<<< HEAD
     max-height: max-content;
     display: flex;
     flex-wrap: wrap;
@@ -90,6 +98,14 @@ form.boxt{
 .box{
     border: 1px solid black;
     margin: 8px;
+=======
+    height: 800px;
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+    margin: 10px;
+>>>>>>> 6a5890bbae88111c80c13ed3d9a93ec396c1e3a5
     justify-content: space-around;
     align-items: center;
     height: max-content;
