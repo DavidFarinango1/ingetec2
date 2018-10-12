@@ -14,7 +14,7 @@ header a{
     background-color: #F2F0F0;
     font-family: 'Roboto', sans-serif;
 }
-a.contact{
+.contact-top{
     display: flex;
     justify-content: space-between;
     margin: 0;
@@ -33,28 +33,28 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.search h5{
-    margin: 0;
-}
-.search{
-    display: flex;
-    height: 50px;
-    align-items: center;
-}
-form.boxt{
-    display: flex;
-}
-.boxt h5{
-    padding-right: 8px;
-}
-.logo{
+.cabecera-logo{
     display: flex;
     justify-content: flex-start;
     background-color: #0279B0;
     height: 50px;
     align-items: center;
 }
-.logIn{
+.cabecera-search h5{
+    margin: 0;
+}
+.cabecera-search{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.search-boxt{
+    display: flex;
+}
+.search-boxt h5{
+    padding-right: 8px;
+}
+.cabecera-logIn{
     display: flex;
     justify-content: flex-end;
     height: 50px;
@@ -66,8 +66,8 @@ form.boxt{
     align-content: center;
 }
 .slides{
-    display: flex;
     margin: 20px;
+    display: flex;
     justify-content: space-around;
 }
 .slidesimg{
@@ -105,7 +105,7 @@ body{
     margin: 10px;
 }
 .products{
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 10px;
     margin: 10px;
 }
@@ -126,11 +126,12 @@ body{
     background-color: #F2F0F0;
 }
 .p-box-common-products{
-    border: 1px solid red;
+    border: 1px solid black;
     display: flex;
+    justify-content: space-between;
 }
 .box-common-products{
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .contact{
     display: flex;
@@ -138,7 +139,7 @@ body{
 }
 .contact-box1{
     width: 50%;
-    border: 1px solid red;
+    border: 1px solid black;;
     text-align: center;
 }
 /* .footer-box-client{
@@ -161,7 +162,7 @@ body{
 .contact-box2{
     width: 50%;
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .social-link{
     width: 50px;
@@ -181,4 +182,29 @@ body{
 }
 .social-link.github{
     background-image: url('../imagenes/github.svg');
+}
+.container{
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+@media screen and (max-width:1024px){
+    .search-boxt input{
+        width: 360px;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width:480px){
+    .contact-top{
+        display: block;
+        text-align: center;
+        background-color: inherit;
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width:320px){
+    
 }
