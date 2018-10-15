@@ -102,9 +102,6 @@ header{
     align-items: center;
     height: max-content;
 }
-.box img{
-    width: 200px;
-}
 body{
     background-color: rgb(184, 225, 245);
     font-family: 'Oswald', sans-serif;
