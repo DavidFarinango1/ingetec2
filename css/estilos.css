@@ -75,12 +75,16 @@ header{
 .slidesimg{
     border: 1px solid black;
 }
-.catalog, .catalog2{
+.catalog{
     display: flex;
     border: 1px solid black;
     justify-content: space-around;
 }
-
+.catalog2{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+}
 .catalogimg{
     border: 1px solid black;
     width: 50%;
@@ -92,13 +96,14 @@ header{
 }
 .box{
     border: 1px solid black;
-    margin: 8px;
+    margin: 5px;
+    /* margin: 8px; */
     justify-content: space-around;
     align-items: center;
     height: max-content;
 }
 .box img{
-    width: 213px;
+    width: 200px;
 }
 body{
     background-color: rgb(184, 225, 245);
@@ -192,7 +197,7 @@ body{
     align-items: inherit;
 }
 h6{
-    margin: .5em;
+    margin: 0;
     font-size: 1em;
     text-align: center;
 }
